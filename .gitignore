@@ -1,0 +1,11 @@
+# Python files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Keep the one model file required by app.py tracked in Git
+*.joblib
+!thyroid_symptom_model.joblib
+
+# Runtime feedback should not be committed
+results/ux_feedback.csv
